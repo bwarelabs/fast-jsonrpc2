@@ -23,7 +23,7 @@ setup(
     packages=find_packages(),
     setup_requires=['pytest-runner'],
     tests_require=["pytest", "mock", "py-cov"],
-    install_requires=['six==1.10.0'],
+    install_requires=['six==1.16.0'],
 
     # metadata for upload to PyPI
     author="Lahache Stephane",
